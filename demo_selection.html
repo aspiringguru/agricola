@@ -70,43 +70,46 @@
             <div class="form-check">
                 <form  id="world" name="world">
                     <label class="tm-w-50">
-                      <input
-                        type="checkbox"
-                        name="one"
-                        id="one"
-                        class="filled-in"
-                        value="1" />
-                      <span>Check Box 1</span>
+                        <input type="checkbox" id="one" class="filled-in" />
+                      <span>VMP1</span>
                     </label>
                     <label class="tm-w-50">
-                      <input
-                        type="checkbox"
-                        name="two"
-                        id="two"
-                        class="filled-in"
-                        value="2" />
-                      <span>Check Box 2</span>
+                        <input type="checkbox" id="two" class="filled-in" />
+                      <span>OGFR</span>
                     </label>
                     <label class="tm-w-50">
-                      <input
-                        type="checkbox"
-                        name="three"
-                        id="three"
-                        class="filled-in"
-                        value="3" />
-                      <span>Check Box 3</span>
+                        <input type="checkbox" id="three" class="filled-in" />
+                      <span>OGFR</span>
                     </label>
                     <label class="tm-w-50">
-                      <input
-                        type="checkbox"
-                        name="four"
-                        id="four"
-                        class="filled-in"
-                        value="4" />
-                      <span>Check Box 4</span>
+                        <input type="checkbox" id="four" class="filled-in" />
+                      <span>OGFR</span>
                     </label>
-                    <input type="button" name="Submit" value="Submit" onclick="checkboxlimit()"/>
+                    <label class="tm-w-50">
+                      <input type="checkbox" id="five" class="filled-in" />
+                      <span>SKIL</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input type="checkbox" id="six" class="filled-in" />
+                      <span>AOAH</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input type="checkbox" id="seven" class="filled-in" />
+                      <span>LYN</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input type="checkbox" id="eight" class="filled-in" />
+                      <span>NFKBIB</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input type="checkbox" id="nine" class="filled-in" />
+                      <span>USP18</span>
+                    </label>
+
                 </form>
+            </div>
+            <div>
+                <input type="button" name="Submit" value="Submit" onclick="checkboxlimit()"/>
             </div>
           </div>
         </div>
@@ -164,12 +167,19 @@
             var x2checked = form.elements.two.checked;
             var x3checked = form.elements.three.checked;
             var x4checked = form.elements.four.checked;
-            var numSelected = [x1checked,x2checked,x3checked,x4checked].filter(Boolean).length;
+            var x5checked = form.elements.five.checked;
+            var x6checked = form.elements.six.checked;
+            var x7checked = form.elements.seven.checked;
+            var x8checked = form.elements.eight.checked;
+            var x9checked = form.elements.nine.checked;
+            console.log("checked:", [x1checked,x2checked,x3checked,x4checked,x5checked,x6checked,x7checked,x8checked,x9checked]);
+            var numSelected = [x1checked,x2checked,x3checked,x4checked,x5checked,x6checked,x7checked,x8checked,x9checked].filter(Boolean).length;
             console.log("numSelected:", numSelected);
             if (numSelected>3){
                 console.log("too many selected.")
             } else {
                 console.log("OK. proceed.")
+                
             }
             return false;
         }
