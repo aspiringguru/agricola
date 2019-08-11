@@ -66,491 +66,52 @@
 
       <div class="row tm-welcome-row">
         <div class="col-12 tm-page-cols-container">
-          <div class="tm-page-col-left tm-welcome-box tm-bg-gradient">
-            <p class="tm-welcome-text">
-              <em></em
-              >
-            </p>
-          </div>
-          <div class="tm-page-col-right">
-            <div
-              class="tm-welcome-parallax"
-              data-parallax="scroll"
-              data-image-src="img/pink-contem-girl.jpg"
-            ></div>
+          <div class="tm-mb-4 tm-choices-container tm-text-secondary">
+            <div class="form-check">
+                <form  id="world" name="world">
+                    <label class="tm-w-50">
+                      <input
+                        type="checkbox"
+                        name="one"
+                        id="one"
+                        class="filled-in"
+                        value="1" />
+                      <span>Check Box 1</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input
+                        type="checkbox"
+                        name="two"
+                        id="two"
+                        class="filled-in"
+                        value="2" />
+                      <span>Check Box 2</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input
+                        type="checkbox"
+                        name="three"
+                        id="three"
+                        class="filled-in"
+                        value="3" />
+                      <span>Check Box 3</span>
+                    </label>
+                    <label class="tm-w-50">
+                      <input
+                        type="checkbox"
+                        name="four"
+                        id="four"
+                        class="filled-in"
+                        value="4" />
+                      <span>Check Box 4</span>
+                    </label>
+                    <input type="button" name="Submit" value="Submit" onclick="checkboxlimit()"/>
+                </form>
+            </div>
           </div>
         </div>
       </div>
 
-      <section class="row tm-pt-4 tm-pb-6">
-        <div class="col-12 tm-tabs-container tm-page-cols-container">
-          <div class="tm-page-col-left tm-tab-links">
-            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-              <li>
-                <a href="#tab1" class="active">
-                  <div class="tm-tab-icon"></div>
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#tab2" class="">
-                  <div class="tm-tab-icon"></div>
-                  Vision and Mission
-                </a>
-              </li>
-              <li>
-                <a href="#tab3" class="">
-                  <div class="tm-tab-icon"></div>
-                  Our History
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="tm-page-col-right tm-tab-contents">
-            <div id="first-tab-group" class="tabgroup">
-              <div id="tab1">
-                <div class="text-content">
-                  <h3 class="tm-text-secondary tm-mb-5">
-                    About Us
-                  </h3>
-                  <p class="tm-mb-5">
-                    About us: We are a team of data scientists and medical stem
-                     cell researchers based at the University of Queensland.
-                  </p>
-                  <p class="tm-mb-5">
-                    To find out more, come see us at http://www.stemcellhackathon.com/
-                  </p>
-                </div>
-                <div class="row tm-pt-5">
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/bitcoin-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">
-                        Matthew Taylor
-                      </h4>
-                      <p class="tm-mb-2">Data Scientist</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/ar-guy.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">Harsha Joshi</h4>
-                      <p class="tm-mb-2">Medical Researcher</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/desk-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">Michael Macdonald</h4>
-                      <p class="tm-mb-2">Medical Researcher</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/desk-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">?????</h4>
-                      <p class="tm-mb-2">Data Scientist</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-              <div id="tab2">
-                <div class="text-content">
-                  <h3 class="tm-text-secondary tm-mb-5">Vision and Mission</h3>
-                  <p class="tm-mb-5">
-                    Nam consequat, leo vitae aliquet dignissim, leo est laoreet
-                    nibh, nec dictum libero justo vitae dolor. Donec tristique
-                    eros at nisi elementum efficitur. Proin ornare feugiat ex
-                    placerat pellenteqsue. Nulla convallis est volutpat ex
-                    ultrices facilisis.
-                  </p>
-                  <p class="tm-mb-5">
-                    Etiam egestas metus vitae est interdum, in eleifend nunc
-                    volutpat. Aliquam molestie ipsum quis suscipit lacinia.
-                    Mauris turpis libero, iaculis non dictum ac, ornare a massa.
-                    Duis id lorem purus. Fusce viverra ullamcorper metus.
-                    Curabitur puvinar suscipit sapien ac blandit. Aliquam vel
-                    pulvinar purus, sit amet luctus urna.
-                  </p>
-                </div>
-                <div class="row tm-pt-5">
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/bitcoin-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">
-                        Catherine Theta
-                      </h4>
-                      <p class="tm-mb-2">Project Manager</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/ar-guy.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">New Hudson</h4>
-                      <p class="tm-mb-2">Digital Marketing</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/desk-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">Jennifer Wall</h4>
-                      <p class="tm-mb-2">Team Leader</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="tab3">
-                <div class="text-content">
-                  <h3 class="tm-text-secondary tm-mb-5">Our History</h3>
-                  <p class="tm-mb-5">
-                    Mauris turpis libero, iaculis non dictum ac, ornare a massa.
-                    Duis id lorem purus. Fusce viverra ullamcorper metus.
-                    Curabitur puvinar suscipit sapien ac blandit. Aliquam vel
-                    pulvinar purus, sit amet luctus urna. Nulla convallis est
-                    volutpat ex ultrices facilisis.
-                  </p>
-                  <p class="tm-mb-5">
-                    Etiam egestas metus vitae est interdum, in eleifend nunc
-                    volutpat. Aliquam molestie ipsum quis suscipit lacinia. Nam
-                    consequat, leo vitae aliquet dignissim, leo est laoreet
-                    nibh, nec dictum libero justo vitae dolor. Donec tristique
-                    eros at nisi elementum efficitur. Proin ornare feugiat ex
-                    placerat pellenteqsue.
-                  </p>
-                </div>
-                <div class="row tm-pt-5">
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/bitcoin-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">
-                        Catherine Theta
-                      </h4>
-                      <p class="tm-mb-2">Project Manager</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/ar-guy.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">New Hudson</h4>
-                      <p class="tm-mb-2">Digital Marketing</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-                        Pellentesque habitant morbi tristique senectus et netus
-                        et malesuada fames.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center">
-                    <div class="tm-about-person mx-auto">
-                      <img
-                        src="img/desk-girl.jpg"
-                        alt="Image"
-                        class="img-fluid tm-mb-1"
-                      />
-                      <h4 class="tm-text-secondary tm-mb-1">Jennifer Wall</h4>
-                      <p class="tm-mb-2">Team Leader</p>
-                      <div class="tm-mb-3">
-                        <a
-                          href="https://facebook.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-facebook-f tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          class="tm-about-social-link"
-                        >
-                          <i class="fab fa-twitter tm-about-social-icon"></i>
-                        </a>
-                        <a
-                          href="https://linkedin.com"
-                          class="tm-about-social-link"
-                        >
-                          <i
-                            class="fab fa-linkedin-in tm-about-social-icon"
-                          ></i>
-                        </a>
-                      </div>
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- Call to Action -->
       <section class="row" id="tmCallToAction">
@@ -594,6 +155,26 @@
     <script src="js/parallax.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+        function checkboxlimit(){
+            var x = document.forms.length;
+            console.log("# of forms = ", x);
+            let form = document.forms.world;
+            //console.log("form:", form);
+            var x1checked = form.elements.one.checked;
+            var x2checked = form.elements.two.checked;
+            var x3checked = form.elements.three.checked;
+            var x4checked = form.elements.four.checked;
+            var numSelected = [x1checked,x2checked,x3checked,x4checked].filter(Boolean).length;
+            console.log("numSelected:", numSelected);
+            if (numSelected>3){
+                console.log("too many selected.")
+            } else {
+                console.log("OK. proceed.")
+            }
+            return false;
+        }
+
+
       $(function() {
         // Tabs
         $(".tabgroup > div").hide();
